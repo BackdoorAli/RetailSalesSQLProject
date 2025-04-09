@@ -25,7 +25,7 @@ Uses a Common Table Expression (CTE) to extract and sort enrollments by populari
 
 ### 🗃️ Database Structure
 ![Database Structure](screenshots/Database_Structure.png)
-ERD-like view showing normalized tables and foreign key relationships.
+ERD-like view showing normalised tables and foreign key relationships.
 
 ### 👥 Sample Customers Table
 ![Customers Table](screenshots/Customers_List.png)
