@@ -1,10 +1,10 @@
-# 🧾 SQL Project Report – Retail Certification Sales
+# SQL Project Report – Retail Certification Sales
 
 This report contains SQL queries executed on the `RetailSalesDB.sqlite` database, designed around real-world certifications and personal learning paths.
 
 ---
 
-## 📊 Query 1: Most Popular Certifications by Quantity Sold
+## Query 1: Most Popular Certifications by Quantity Sold
 
 ```sql
 SELECT 
@@ -20,7 +20,7 @@ ORDER BY total_enrolled DESC;
 
 ---
 
-## 📈 Query 2: Monthly Revenue Trend
+## Query 2: Monthly Revenue Trend
 
 ```sql
 SELECT 
@@ -35,7 +35,7 @@ ORDER BY month;
 
 ---
 
-## 🏅 Query 3: Tagging VIP Students Based on Total Spend
+## Query 3: Tagging VIP Students Based on Total Spend
 
 ```sql
 SELECT 
@@ -55,7 +55,7 @@ GROUP BY c.name;
 
 ---
 
-## 💰 Query 4: Customers Who Spent Above the Average
+## Query 4: Customers Who Spent Above the Average
 
 ```sql
 SELECT 
@@ -75,7 +75,7 @@ HAVING total_spent > (
 
 ---
 
-## 🥇 Query 5: Top 3 Certifications by Enrollments Using CTE
+## Query 5: Top 3 Certifications by Enrollments Using CTE
 
 ```sql
 WITH cert_counts AS (
